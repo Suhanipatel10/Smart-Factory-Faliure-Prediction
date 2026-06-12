@@ -3,6 +3,7 @@
 A simple and intelligent machine failure prediction web app built using Streamlit and a trained Random Forest model. It simulates predictive maintenance in a smart factory setting using real-time inputs from sensors like Torque, Tool Wear, Temperature, and Rotational Speed.
 
 **Purpose**
+
 This project simulates a Smart Factory environment where machine failure is predicted in advance using sensor data. It supports predictive maintenance by:
 * Minimizing unplanned downtime
 * Alerting operators before critical failure
@@ -60,10 +61,7 @@ Description: Sensor data from a manufacturing line, with labels indicating machi
 **Inference & Business Value**
 * Torque and Tool Wear are often the strongest predictors of machine failure.
 * High rotational speed combined with tool fatigue increases failure risk.
-
-Helps factories switch from reactive to predictive maintenance.
-
-Reduces unexpected breakdowns, saving cost and improving uptime.
-
-Model performance (ROC-AUC = 0.98) indicates strong reliability in production use.
+* Helps factories switch from reactive to predictive maintenance.
+* Reduces unexpected breakdowns, saving cost and improving uptime.
+* Model performance (ROC-AUC = 0.98) indicates strong reliability in production use.
 
